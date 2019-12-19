@@ -14,7 +14,7 @@ On 19th December, I completed the first part of the MOOC. At first, it covered l
 
 Here's my certificate for part 1.
 
-![Certificate](https://imgur.com/a/20ykoXH)
+![Certificate](https://imgur.com/a/20ykoXH.png)
 
 
 I'll keep this updated when I complety part 2 (and start the 2020 finnish version).
