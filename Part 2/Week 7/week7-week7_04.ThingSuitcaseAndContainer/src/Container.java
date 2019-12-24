@@ -41,7 +41,7 @@ public class Container {
     
      public void printThings(){
          for (Suitcase suitcase : suitcases) {
-             suitcase.toString();
+             suitcase.printThings();                 
          }
      }
 }
