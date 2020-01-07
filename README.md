@@ -15,6 +15,6 @@ Here's my certificate for part 1.
 
 <img src="https://user-images.githubusercontent.com/30005368/71194242-7f4c7a00-2283-11ea-981b-ce86bd042754.jpg" width="50%">
 
-I'll keep this updated when I complety part 2 (and start the 2020 finnish version).
+I'll keep updating this until I complete part 2.
 
 
