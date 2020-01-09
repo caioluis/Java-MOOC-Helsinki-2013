@@ -57,6 +57,11 @@ public class Storehouse {
     
     //to be continued
     public Set<String> products(){
-        return null;
+        Set<String> store = new HashSet<String>();
+        for (String key : things.keySet()) {
+            store.add(key);
+        }
+        
+        return store;
     }
 }
