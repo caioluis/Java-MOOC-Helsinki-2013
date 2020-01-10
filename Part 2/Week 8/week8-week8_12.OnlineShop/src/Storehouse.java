@@ -13,25 +13,23 @@ import java.util.*;
 
 public class Storehouse {
 
-    private String product;
-    private int price;
-    private int stock;
-    private Map<String, Integer> things;
+    
+    private Map<String, Integer> prices;
     private Map<String, Integer> stocks;
 
     public Storehouse() {
-        things = new HashMap<String, Integer>();
+        prices = new HashMap<String, Integer>();
         stocks = new HashMap<String, Integer>();
     }
 
     public void addProduct(String product, int price, int stock) {
-        things.put(product, price);
+        prices.put(product, price);
         stocks.put(product, stock);
     }
 
     public int price(String product) {
-        if (things.containsKey(product)) {
-            return things.get(product);
+        if (prices.containsKey(product)) {
+            return prices.get(product);
         } else {
             return -99;
         }
@@ -55,8 +53,13 @@ public class Storehouse {
             return false;
     }
     
-    //to be continued
+
     public Set<String> products(){
-        return null;
+        Set<String> store = new HashSet<String>();
+        for (String key : prices.keySet()) {
+            store.add(key);
+        }
+        
+        return store;
     }
 }
