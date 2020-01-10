@@ -56,11 +56,7 @@ public class Storehouse {
 
     public Set<String> products(){
         Set<String> store = new HashSet<String>();
-<<<<<<< HEAD
         for (String key : prices.keySet()) {
-=======
-        for (String key : things.keySet()) {
->>>>>>> a5e0eb8c2dd7fa44006004dbbd3c5bc044e41faf
             store.add(key);
         }
         
