@@ -33,18 +33,19 @@ public class Hand implements Comparable<Hand> {
     public int compareTo(Hand hand) {
         int firstValue = 0;
         int secondValue = 0;
+
         for (Card card : this.cards) {
             firstValue += card.getValue();
         }
+
         for (Card card : hand.cards) {
             secondValue += card.getValue();
         }
-        if (firstValue < secondValue) {
-            return -1;
-        } if (firstValue == secondValue) {
-            return 0;
-        } else{
-            return 1; 
-        } 
+
+        return firstValue - secondValue;
+    }
+    
+    public void sortAgainstSuit() {
+        Collections.sort(cards, new SortAgainstSuitAndValue());
     }
 }
